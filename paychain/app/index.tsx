@@ -25,10 +25,10 @@ const Index:React.FC<Props> = () => {
       className="bg-[#edfde4] h-full flex-1 items-center"
     >
       <Text className="text-center font-medium ">Here's how Kamau General Store is doing today</Text>
-      <View className="h-[250px] w-[350px] bg-green-900 rounded-[10px] m-7">
+      <View className="h-[150px] w-[250px] bg-green-900 rounded-[10px] m-7">
         <View className="flex-row items-center justify-start gap-x-1">
-        <text className="text-[10px] text-white bg-[#d8f7c9] font-semibold ">PRIMARY LEDGER</text>
-        <text className="text-white font-bold bg-[#ecfae2]">TILL: PC847291</text>
+        <text className="text-[10px] text-white bg-[#641203] font-semibold ">PRIMARY LEDGER</text>
+        <text className="text-white font-bold bg-[#5448f5]">TILL: PC847291</text>
         </View>
         <Text className="font-semibold text-xl text-white">KES 184,250</Text>
         <Text className="text-white font-normal">+KES 18,450 today</Text>

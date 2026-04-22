@@ -85,6 +85,20 @@ export default function TabsLayout() {
         headerShown: false
       }}
       />
+      <Tabs.Screen
+      name="login"
+      options={{
+        headerTitle: "Login",
+        headerShown: false
+      }}
+      />
+      <Tabs.Screen
+      name="register"
+      options={{
+        headerTitle: "Register",
+        headerShown: false
+      }}
+      />
     </Tabs>
   )
 }
